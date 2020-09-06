@@ -1,0 +1,83 @@
+body, #calculator {
+  background-color: orange;
+  height: 100vh;
+  width: 100vw;
+}
+#calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+#app {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "disp disp disp disp"
+    "btn7 btn8 btn9 btnDivide"
+    "btn4 btn5 btn6 btnMultiply"
+    "btn1 btn2 btn3 btnAdd"
+    "btnClear btn0 btnDecimal btnSubtract"
+    "btnEquals btnEquals btnEquals btnEquals";
+  height: 440px;
+  width: 320px;
+  border-radius: 8px;
+}
+#display{
+  background-color: white;
+  grid-area: disp;
+}
+#zero{
+  grid-area: btn0;
+}
+#one{
+  grid-area: btn1;
+}
+#two{
+  grid-area: btn2;
+}
+#three{
+  grid-area: btn3;
+}
+#four{
+  grid-area: btn4;
+}
+#five{
+  grid-area: btn5;
+}
+#six{
+  grid-area: btn6;
+}
+#seven{
+  grid-area: btn7;
+}
+#eight{
+  grid-area: btn8;
+}
+#nine{
+  grid-area: btn9;
+}
+#add{
+  grid-area: btnAdd;
+}
+#subtract{
+  grid-area: btnSubtract;
+}
+#multiply{
+  grid-area: btnMultiply;
+}
+#divide{
+  grid-area: btnDivide;
+}
+#clear{
+  grid-area: btnClear;
+}
+#decimal{
+  grid-area: btnDecimal;
+}
+#equals{
+  grid-area: btnEquals;
+}
+
+
