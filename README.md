@@ -1,6 +1,6 @@
 # Js-Calculator
 
-![](.gif)
+![](Js-Calculator.gif)
 
 ## What I created
 
